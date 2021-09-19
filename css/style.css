@@ -5,6 +5,7 @@
   --secondary-text-color: #212121;
   --header-text-color: #fff;
   --link-hover-color: #2196f3;
+  --button-bgc: #f5f4fa;
 }
 
 body {
@@ -37,7 +38,8 @@ font-family: 'Roboto', sans-serif; */
 .nav-menu,
 .nav-mail,
 .nav-tel,
-.footer-contacts {
+.footer-contacts,
+.section-link {
   text-decoration: none;
 }
 
@@ -46,7 +48,9 @@ font-family: 'Roboto', sans-serif; */
 .main-list,
 .list-about,
 .list-personal,
-.footer-list {
+.footer-list,
+.list-btn,
+.section-list {
   list-style: none;
 }
 
@@ -170,6 +174,31 @@ font-family: 'Roboto', sans-serif; */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  color: var(--basic-text-color);
+}
+
+.btn {
+  background-color: var(--button-bgc);
+  color: var(--secondary-text-color);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--link-hover-color);
+  color: var(--basic-color);
+}
+
+.section-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-text-color);
+}
+
+.section-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
   color: var(--basic-text-color);
 }
 
